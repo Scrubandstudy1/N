@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NL Nails - Pricelist</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #1c1c1c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: white;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin: 20px 0;
+            width: 100%;
+            max-width: 700px;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+        }
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #444;
+        }
+        .note {
+            font-size: 0.9rem;
+            margin-top: 10px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">NL Nails</div>
+    <h1>Pricelist</h1>
+
+    <div class="section">
+        <div class="section-title">Polygel Hands</div>
+        <div class="price-row"><span>Short</span><span>K250</span></div>
+        <div class="price-row"><span>Medium</span><span>K300</span></div>
+        <div class="price-row"><span>Long</span><span>K350</span></div>
+        <div class="price-row"><span>XL</span><span>K400</span></div>
+        <div class="price-row"><span>Refills</span><span>K200</span></div>
+        <div class="note">*Price may increase depending on design complexity.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Polygel Toes</div>
+        <div class="price-row"><span>Toes</span><span>K200</span></div>
+        <div class="price-row"><span>Refill</span><span>K150</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Gel Nails</div>
+        <div class="price-row"><span>Hands - Short</span><span>K150</span></div>
+        <div class="price-row"><span>Medium</span><span>K200</span></div>
+        <div class="price-row"><span>Long</span><span>K250</span></div>
+        <div class="price-row"><span>XL</span><span>K300</span></div>
+        <div class="price-row"><span>Toes</span><span>K120</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Acrylic Nails</div>
+        <div class="price-row"><span>Short</span><span>K200</span></div>
+        <div class="price-row"><span>Medium</span><span>K300</span></div>
+        <div class="price-row"><span>Long</span><span>K350</span></div>
+        <div class="price-row"><span>XL</span><span>K400</span></div>
+        <div class="price-row"><span>Toes</span><span>K180</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Other Services</div>
+        <div class="price-row"><span>Soak Off</span><span>K80</span></div>
+        <div class="price-row"><span>Gel Paint</span><span>K100</span></div>
+        <div class="price-row"><span>Accessories</span><span>K10+</span></div>
+    </div>
+
+    <div class="note">K50 deposit required to secure a slot. Contact: +260-762824402</div>
+</body>
+</html>
